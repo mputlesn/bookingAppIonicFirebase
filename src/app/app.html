@@ -1,0 +1,26 @@
+<ion-menu [content]="content" >
+
+  <ion-content class="menu">
+    <h1>Menu</h1>
+    <button class="options" menuClose ion-item no-line icon-left (click)="nav.setRoot(pages2.homePage)">
+      <ion-icon class="icons" name="home"></ion-icon>
+      Home
+    </button>
+    <button class="options" menuClose ion-item icon-left no-line (click)="nav.setRoot(pages2.searchPage)">
+      <ion-icon class="icons" ios="ios-search" md="md-search"></ion-icon>
+      Seach
+    </button>
+    <button class="options" menuClose ion-item icon-left no-line (click)="nav.setRoot(pages2.bookingsPage)">
+      <ion-icon class="icons" name="book"></ion-icon>
+      Bookings
+    </button>
+    <button class="options" menuClose ion-item no-line icon-left (click)="signOut()">
+        <ion-icon class="icons" ios="ios-power" md="md-power"></ion-icon>
+        Logout
+    </button>
+  </ion-content> 
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

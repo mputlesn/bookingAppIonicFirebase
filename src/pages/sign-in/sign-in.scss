@@ -1,0 +1,44 @@
+page-sign-in {
+    .header{
+        font-size: 4em;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 25%;
+        margin-bottom: 15%;
+    }
+    .body{
+        position: fixed;
+        display: block;
+        // background-color: #970747;
+        // color: white
+    }
+    .btn{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        top: 10%;
+        width: 70%;
+        border-radius: 5px
+    }
+
+    .signUp{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 5px;
+        top: 20%;
+        font-size: 1.2em
+    }
+
+    .forgot{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 5px;
+        top: 12%;
+        color: rgb(173, 171, 171);
+    }
+
+}

@@ -1,0 +1,50 @@
+<!--
+  Generated template for the SearchPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="header">
+  <button ion-button menuToggle item-start>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <h1>Search</h1>
+</ion-header>
+
+
+<ion-content padding class="body">
+  <div class="con">
+    <ion-item class="item">
+      <ion-label>Check-in</ion-label>
+      <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="checkIn"></ion-datetime>
+    </ion-item>
+  
+    <ion-item class="item">
+      <ion-label>Check-out</ion-label>
+      <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="checkOut"></ion-datetime>
+    </ion-item>
+  </div>
+  <div class="con2">
+      <ion-grid>
+          <ion-row>
+            <ion-col>
+                <ion-item class="no">
+                    <ion-input type="number" placeholder="Room" [(ngModel)]="room"></ion-input>
+                </ion-item>
+            </ion-col>
+            <ion-col>
+                <ion-item class="no">
+                    <ion-input type="number" placeholder="Adult" [(ngModel)]="adult"></ion-input>
+                  </ion-item>
+            </ion-col>
+            <ion-col>
+                <ion-item class="no">
+                    <ion-input type="number" placeholder="Child" [(ngModel)]="child"></ion-input>
+                  </ion-item>
+            </ion-col>
+          </ion-row>
+          </ion-grid>
+  </div>
+
+  <button ion-button class="btn" (click)="search()">Search</button>
+</ion-content>

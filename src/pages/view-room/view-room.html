@@ -1,0 +1,20 @@
+<!--
+  Generated template for the ViewRoomPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <button ion-button menuToggle item-start>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <h2>Book</h2>
+</ion-header>
+
+<ion-content padding class="body">
+  <img src={{image}} height="250px" width="330">
+  <h1>{{name}}</h1>
+  <h3>{{description}}</h3>
+  <p>R{{price}}</p>
+  <button ion-button class="btn" (click)="alert()">Book</button>
+</ion-content>

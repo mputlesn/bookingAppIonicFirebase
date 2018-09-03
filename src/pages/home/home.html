@@ -1,0 +1,23 @@
+<ion-header class="header">
+    <button ion-button menuToggle item-start>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <p>THE</p>
+    <h1>Moon Hotel</h1>
+</ion-header>
+
+<ion-content class="body" padding>
+  <ion-list *ngFor="let a of roomList">
+      <ion-item class="item">
+        <ion-thumbnail item-start>
+          <img class="img" src={{a.imgUrl}}>
+        </ion-thumbnail>
+       <div class="con">
+          <div id="name">{{a.name}}</div>
+          <div id="description">{{a.description}}</div>
+        <div id="price">R{{a.price}}</div>
+        <button ion-button (click)="view(a.key)">View</button>
+       </div>
+      </ion-item>
+  </ion-list>
+</ion-content>

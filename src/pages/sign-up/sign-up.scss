@@ -1,0 +1,40 @@
+page-sign-up {
+
+    .header{
+        font-size: 4em;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    .body{
+        position: fixed;
+        display: block;
+        // background-color: #970747;
+        // color: white
+    }
+
+    .list{
+        // position: relative;
+        // top: 20%
+    }
+
+    .btn{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        top: 3%;
+        width: 50%;
+        border-radius: 5px
+    }
+
+    .signIn{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 5px;
+        top: 5%;
+        font-size: 1.2em
+    }
+}

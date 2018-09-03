@@ -1,0 +1,50 @@
+page-search {
+    .header{
+        position: relative;
+        background-color: #970747;
+        height: 20%;
+    }
+
+    h1{
+        position: relative;
+        display: block;
+        margin-left: 1%;
+        margin-top: -5%;
+        color: white;
+        font-size: 4em;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700; 
+    }
+
+    .btn{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        top: 15%;
+        width: 70%;
+        border-radius: 5px
+    }
+
+    .body{
+        background-color: #ebd5d5
+    }
+
+    .item{
+        border-radius: 10px;
+        margin-top: 6%;
+        height: 15%;
+        background: linear-gradient(#d1adbd44,rgba(104, 96, 96, 0.096));
+    }
+
+    .con{
+        background: transparent;
+        margin-top: 20%;
+    }
+
+    .no{
+        position: relative;
+        display: block;
+    }
+
+
+}
